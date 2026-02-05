@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Борги</title>
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<h2>Борги</h2>
+
+<input id="name" placeholder="Імʼя">
+<input id="amount" type="number" placeholder="Сума">
+<button onclick="addDebt()">Додати</button>
+
+<ul id="list"></ul>
+
+<script src="app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
+</script>
+</body>
+</html>
