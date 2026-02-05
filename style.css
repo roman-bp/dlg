@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #f2f2f7;
+  padding: 16px;
+}
+
+/* Заголовок */
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Карточки */
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Людина */
+
+.person-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.balance {
+  color: #555;
+  margin-top: 4px;
+}
+
+/* Поля */
+
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Кнопки */
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Основні кнопки */
+
+.btn-main {
+  background: #007aff;
+  color: white;
+}
+
+.btn-main:active {
+  background: #0063cc;
+}
+
+/* Дати гроші */
+
+.btn-give {
+  background: #34c759;
+  color: white;
+}
+
+/* Повернув */
+
+.btn-return {
+  background: #ff3b30;
+  color: white;
+}
+
+/* Видалити */
+
+.btn-delete {
+  background: #e5e5ea;
+}
+
+/* Історія */
+
+.tx {
+  background: #fafafa;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Адаптив */
+
+@media (min-width: 600px) {
+  body {
+    max-width: 500px;
+    margin: auto;
+  }
+}
